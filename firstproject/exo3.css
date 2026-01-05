@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(3d-network-particle-flow-background.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-attachment: fixed;
+    
+}
+header{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+@font-face {
+    font-family: 'Circuitra';
+    src: url('fonts/Circuitra.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+   @font-face {
+    font-family: 'cmunbi' ;
+    src: url(fonts/cmunbi.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+header h1{
+    margin:0;
+    font-family: 'Circuitra', sans-serif;
+    font-size: 3em;
+    color:#0f76d6;
+    
+}
+nav.The_menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+    width: 400px;
+    height: 50px;
+    background: #222;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav.The_menu ul li a:hover{
+    color:#fff;
+}
+nav.The_menu ul li a{
+     font-weight: bold;
+    font-size: 1.1em;
+}
+   nav a{
+    position: relative;
+    display: inline-block;
+    font-size:1em;
+    font-weight:500;
+    COLOR:#fff;
+    text-decoration: none;
+    padding: 0px 20px
+   }
+   nav span{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width: 95px;
+    background: linear-gradient(45deg,#002F63, #B572E8);
+    border-radius: 8px;
+    transition: all 0.7s ease;
+   }
+
+nav.The_menu ul li:nth-child(1):hover~span{
+    left:0;
+}
+nav.The_menu ul li:nth-child(2):hover~span{
+    left:95px;
+}
+nav.The_menu ul li:nth-child(3):hover~span{
+    left:190px;
+    width: 110px;
+}
+nav.The_menu ul li:nth-child(4):hover~span{
+    left:285px;
+    width: 115px;
+}
+nav.The_menu ul li{
+    position: relative;
+    z-index: 2;
+}
+ .project_ h4 {
+    color: #fff;
+}
+article.project1{
+    margin: 20px;
+    padding: 20px;
+    background: url(—Pngtree—futuristic\ cyber\ cityscape\ glowing\ lights_3667221.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    border-radius: 15%;
+}
+/*a comprendre*/
+.project1_ article {
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    cursor: pointer;
+}
+
+.project_ article:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 25px rgba(0, 162, 255, 0.7);
+}
+/*a comprendre*/
+
+article.project2{
+    margin:20px;
+    padding:20px;
+    background: url(pngtree-beauty-salon-hair-picture-image_2731333.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    border-radius: 15%;
+}
+article.project3{
+    margin: 20px;
+    padding: 20px;
+    background: url(AdobeStock_1073464019_Preview.jpeg);
+    background-position: center;
+    border-radius: 8px;
+    border-radius: 15%;
+}
+article.project4{
+    margin: 20px;
+    padding: 20px;
+    background: url(modern-office-space-with-futuristic-decor-furniture.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    border-radius: 15%;
+}
+article.project5{
+    margin: 20px;
+    padding: 20px;
+    background: url(smartphone-with-user-interface-concept.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    border-radius: 15%;
+}
+article.project1 h2{
+    font-size: 2.5em;
+    color: rgb(171, 232, 176);
+}
+article.project1 p{
+    font-family: 'cmunbi', sans-serif;
+    font-size: 2em;
+    color:beige
+}
+article.project1 a {
+    font-size: 1.3em;
+    color: #831bd2;
+}
+article.project1 a:hover{
+    color: #868ceb;
+}
+article.project2 h2{
+    font-size: 2.5em;
+    color: beige;
+    -webkit-text-stroke: 3px rgb(152, 165, 120);
+
+}
+article.project2 p{
+    font-family: 'cmunbi', sans-serif;
+    font-size: 2em;
+    color:beige;
+}
+article.project2 h3{
+    -webkit-text-stroke: 1px rgb(114, 94, 94);
+
+}
+article.project2 h4{
+    -webkit-text-stroke: 1px rgb(114, 94, 94);
+
+}
+article.project2 a {
+    font-size: 1.3em;
+    color: #b2e737;
+}
+article.project2 a:hover{
+    color: #c5dcc5;
+}
+article.project3 h2{
+    font-size: 2.5em;
+    color: rgb(215, 251, 55);
+    -webkit-text-stroke: 3px rgb(13, 13, 12);
+
+}
+article.project3 p{
+    font-family: 'cmunbi', sans-serif;
+    font-size: 2em;
+    color:rgb(212, 212, 148);
+}
+article.project4 h3{
+    -webkit-text-stroke: 1px rgb(172, 162, 162);
+
+}
+article.project4 h2{
+    font-size: 2.5em;
+    color: snow;
+    -webkit-text-stroke: 2px #c5dcc5;
+
+}
+article.project4 p{
+    font-family: 'cmunbi', sans-serif;
+    font-size: 2em;
+    color:rgb(42, 42, 39);
+}
+article.project5 h2{
+    font-size: 2.5em;
+    color: rgb(155, 67, 193);
+    -webkit-text-stroke: 3px rgb(66, 41, 124);
+
+}
+article.project5 p{
+    font-family: 'cmunbi', sans-serif;
+    font-size: 2em;
+}
+article.project5 h3{
+    -webkit-text-stroke: 1px rgb(168, 208, 226);
+
+}
+article.project5 h4{
+    -webkit-text-stroke: 1px rgb(132, 228, 239);
+
+}
+article.project5 a {
+    font-size: 1.3em;
+    color: blueviolet;
+}
+article.project5 a:hover{
+    color: lightblue;
+}

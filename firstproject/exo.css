@@ -1,0 +1,134 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: url(waves-7111758.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+header {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@font-face {
+    font-family: 'Circuitra';
+    src: url('fonts/Circuitra.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+header h1 {
+    margin: 0;
+    font-family: 'Circuitra', sans-serif;
+    font-size: 2em;
+    color:#0000cd;
+
+}
+nav a{
+    position:relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 23px;
+    z-index: 1;
+}
+nav{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+nav.The_menu ul li{
+    position: relative;
+    z-index: 2;
+}
+nav.The_menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+    width: 400px;
+    height: 50px;
+    background: #222;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   
+
+nav.The_menu ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: 0.3s;
+}
+nav.The_menu ul li a:hover{
+    color:#fff;
+}
+nav.The_menu span{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 95px;
+    height: 100%;
+    background:linear-gradient(45deg,#002F63, #B572E8);
+    border-radius: 8px;
+    transition: all 0.7s ease;
+    z-index: 1;
+}
+ 
+    nav.The_menu ul li:nth-child(1):hover~span{
+  
+    left: 0;
+    }
+    nav.The_menu ul li:nth-child(2):hover~span{
+
+     left: 95px;
+    }
+
+    nav.The_menu ul li:nth-child(3):hover~span{
+
+left: 190px;
+width:110px;
+    }
+
+    nav.The_menu ul li:nth-child(4):hover~span{
+
+left: 289px;
+width:115px;
+}
+
+.presentation{
+    margin-top: 50px;
+    display:flex;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.presentation img{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #0d98ba;
+    box-shadow: 0px 0px 20px #10bfea;
+}
