@@ -1,0 +1,27 @@
+MY PERSONAL WEBSITE – WORK DESCRIPTION
+
+This website is my personal project.
+It is created to present who I am, what I do, and the projects I have worked on.
+
+1. Home / Index Page
+The home page is the main entry point of the website.
+It gives a brief introduction and an overview of the content.
+It helps visitors understand the purpose of the website.
+
+2. About Page
+The about page contains information about me.
+It describes my background, interests, skills, and goals.
+This page helps visitors know more about who I am.
+
+3. Projects Page
+The projects page shows the works and projects I have completed.
+Each project represents my learning process and technical skills.
+This page highlights my experience and progress.
+
+4. Contact Page
+The contact page allows visitors to get in touch with me.
+It may include a contact form, email address, or other contact information.
+This page makes communication easy.
+
+Conclusion
+This website reflects my work, my learning journey, and my motivation to improve my skills in web development.
